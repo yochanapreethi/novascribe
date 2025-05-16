@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NovaScribe</title>
+
+  <!--custom css link -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!--#HEADER-->
+
+  <header class="header section" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="logo.png" width="129" height="40" alt="NS logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Recent Post</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover:underline" data-nav-link>Membership</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="wrapper">
+
+        <button class="search-btn" aria-label="search" data-search-toggler>
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+          <span class="span">Search</span>
+        </button>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <span class="span one"></span>
+          <span class="span two"></span>
+          <span class="span three"></span>
+        </button>
+
+        <a href="#" class="btn">Join</a>
+
+      </div>
+
+    </div>
+  </header>
+
+  <!--#SEARCH BAR-->
+
+  <div class="search-bar" data-search-bar>
+
+    <div class="input-wrapper">
+      <input type="search" name="search" placeholder="Search" class="input-field">
+
+      <button class="search-close-btn" aria-label="close search bar" data-search-toggler>
+        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+
+    <p class="search-bar-text">Please enter at least 3 characters</p>
+
+  </div>
+
+  <div class="overlay" data-overlay data-search-toggler></div>
+
+
+  <main>
+    <article>
+
+      <!--#HERO-->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <strong class="strong">Hey, we're NovaS.</strong> Your spot for stories, ideas, and new perspectives.
+          </h1>
+
+          <div class="wrapper">
+
+            <form action="" class="newsletter-form">
+              <input type="email" name="email_address" placeholder="Your email address" class="email-field">
+
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+
+            <p class="newsletter-text">
+              Subscribe to our email newsletter to unlock exclusive members-only content and receive the latest updates.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--#FEATURED POST-->
+
+      <section class="section featured" aria-label="featured post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            Get started with our <strong class="strong">best stories</strong>
+          </p>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="featured-1.jpeg" width="500" height="600" loading="lazy"
+                    alt="New technology is not good or evil in and of itself" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-1.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-2.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">SustainableLiving </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">EcoFriendlyTips </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">GreenHabits</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Small Steps, Big Impact: Embracing a Greener Lifestyle
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Living sustainably doesn't have to mean going off the grid — even small changes can make a huge difference. From swapping plastic for reusable options to cutting down on food waste, everyday habits can reduce your carbon footprint. This post explores easy, actionable ways to make eco-conscious choices without sacrificing convenience. Sustainability is a journey, not a destination — and every step counts. Join the movement toward a cleaner, healthier planet starting today.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="featured-2.jpeg" width="500" height="600" loading="lazy"
+                    alt="It's a new era in design, there are no rules" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">TechTrends2025</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">FutureOfTech</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      2025 Tech Forecast: What's Next in the Digital Revolution?
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    From AI that thinks more like us to wearable health tech that knows us better than we do, 2025 is set to be a landmark year for innovation. This blog dives into the most exciting trends shaping the future — like generative AI, quantum computing breakthroughs, and sustainable tech solutions. Whether you're a curious reader or a tech enthusiast, get ready to glimpse tomorrow's world today. The future isn’t just coming — it’s already here, and it’s smarter than ever.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="featured-3.jpeg" width="500" height="600" loading="lazy"
+                    alt="Perfection has to do with the end product" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-4.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Design</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">WritersBlock </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">StayInspired </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Break Through the Block: Finding Your Creative Flow Again
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Writer’s block can feel like a brick wall, but it’s not the end of your creative journey. This post shares practical tips to reignite your inspiration—whether it’s changing your environment, freewriting, or finding new sources of ideas. Remember, creativity thrives in movement, not perfection. Learn how to turn frustration into motivation and keep your words flowing, even on the toughest days.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="featured-4.jpeg" width="500" height="600" loading="lazy"
+                    alt="Everyone has a different life story" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-5.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-2.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">HealthyEating </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">EatWellLiveWell</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Quick & Easy Healthy Eating: Fuel Your Busy Life Right
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Eating healthy doesn’t have to be complicated or time-consuming, even when your schedule is packed. This blog shares simple tips to make nutritious choices on the go — from meal prepping to smart snacking. Discover how small adjustments can boost your energy and mood without sacrificing flavor. Healthy eating is about making life easier, not harder. Let’s make wellness a natural part of your daily routine.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="featured-5.jpeg" width="500" height="600" loading="lazy"
+                    alt="The difference is quality" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-6.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">CreativeThinking </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">ProblemSolving </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Innovation</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Think Outside the Box: How Creativity Solves Tough Problems
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Creativity isn’t just for artists — it’s a powerful tool for tackling everyday challenges. This post explores how creative thinking opens new pathways to solutions, helping you break free from routine approaches. By embracing curiosity and experimentation, you can approach problems with fresh eyes and innovate effectively. Unlock your creative potential and turn obstacles into opportunities.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                  <img src="featured-6.jpeg" width="500" height="600" loading="lazy"
+                    alt="Problems are not stop signs, they are guidelines" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">EffectiveCommunication</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">StrongRelationships </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Speak, Listen, Connect: Building Stronger Relationships
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Strong relationships are built on clear, honest communication. This blog highlights key strategies to improve your listening skills, express yourself authentically, and resolve conflicts with empathy. Whether in personal or professional life, mastering communication deepens trust and understanding. Learn how small changes in how you connect can transform your relationships for the better.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--#RECENT POST-->
+
+      <section class="section recent" aria-label="recent post">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <h2 class="h2 section-title">
+              Explore what we've just <strong class="strong">blogged</strong>
+            </h2>
+
+            <div class="top-author">
+              <ul class="avatar-list">
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="author-1.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="author-2.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="author-3.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="author-4.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="author-5.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+                <li class="avatar-item">
+                  <a href="#" class="avatar large img-holder" style="--width: 100; --height: 100;">
+                    <img src="author-6.jpeg" width="100" height="100" alt="top author" class="img-cover">
+                  </a>
+                </li>
+
+              </ul>
+
+              <span class="span">Meet our top authors</span>
+            </div>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="recent-1.jpeg" width="550" height="660" loading="lazy"
+                    alt="Creating is a privilege but it's also a gift" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-5.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">ProductivityHacks </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">WorkSmart </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">DailySuccess</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Boost Productivity with Simple Daily Habits
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Boost your productivity by adopting small daily habits like prioritizing tasks and taking short breaks. These easy changes help you work smarter, not harder, so you can accomplish more with less stress. Over time, these habits build momentum and transform your workday.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="recent-2.jpeg" width="550" height="660" loading="lazy"
+                    alt="Being unique is better than being perfect" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-5.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">StartABlog </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">ContentCreation</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">BloggingTips </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Start Your Successful Blog Today
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Starting a blog can seem overwhelming, but with the right guidance, it’s easier than you think. Focus on choosing your niche, creating valuable content, and engaging with your audience consistently. With dedication, your blog can grow into a powerful platform to share your ideas and connect with others.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="recent-3.jpeg" width="550" height="660" loading="lazy"
+                    alt="Now we're getting somewhere" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-2.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-5.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-1.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">PersonalGrowth</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">ReadingList</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">LifeChangingBooks </a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Books That Changed My Life
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Some books have the power to shift how we see the world. These top 10 reads opened my mind, inspired new ideas, and helped me grow personally and professionally. Discover the books that made a lasting impact and why they might change your life too.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="recent-4.jpeg" width="550" height="660" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Mindfulness </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">MenatalHealth</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Why Mindfulness Matters
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Mindfulness helps you stay present and reduce stress in a busy world. Practicing it daily can improve your focus, emotional balance, and overall well-being. It encourages self-awareness and helps you respond calmly to challenges. Start small and watch how mindfulness transforms your mental health.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="recent-5.jpeg" width="550" height="660" loading="lazy"
+                    alt="Every day, in every city and town across the country" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-1.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-6.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">TravelTips</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">BudgetTravel </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">Lifestyle</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      Travel on a Budget
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Traveling doesn’t have to break the bank. Learn practical tips to save on flights, accommodation, and food, so you can explore more without overspending. Planning ahead and being flexible with your schedule can unlock great deals. Adventure awaits, even on a budget!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 550; --height: 660;">
+                  <img src="recent-6.jpeg" width="550" height="660" loading="lazy"
+                    alt="Your voice, your mind, your story, your vision" class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-6.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <ul class="card-meta-list">
+
+                    <li>
+                      <a href="#" class="card-tag">Storytelling </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">ConnectAndInspire</a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="card-tag">CommunicationSkills</a>
+                    </li>
+
+                  </ul>
+
+                  <h3 class="h4">
+                    <a href="#" class="card-title hover:underline">
+                      The Power of Storytelling
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Stories connect us and make ideas memorable. Whether in personal relationships or at work, mastering storytelling helps you inspire, persuade, and build trust. Good stories can motivate teams, win clients, and create deeper connections. Unlock the power of your story today.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn">Load more</button>
+
+        </div>
+      </section>
+
+      <!--#RECOMMENDED POST-->
+
+      <section class="section recommended" aria-label="recommended post">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <strong class="strong">Recommended</strong>
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="recommended-1.jpeg" width="300" height="360" loading="lazy"
+                    alt="The trick to getting more done is to have the freedom to roam around " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-4.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-2.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Master Time Management: Techniques That Really Work
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="recommended-2.jpeg" width="300" height="360" loading="lazy"
+                    alt="Every day, in every city and town across the country " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Discover the Benefits of Daily Journaling for Your Mind
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="recommended-3.jpeg" width="300" height="360" loading="lazy"
+                    alt="I work best when my space is filled with inspiration " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-1.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      How to Balance Work and Life for a Healthier You
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="recommended-4.jpeg" width="300" height="360" loading="lazy"
+                    alt="I have my own definition of minimalism " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-4.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      A Beginner’s Guide to Meditation: Find Calm and Focus
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="recommended-5.jpeg" width="300" height="360" loading="lazy"
+                    alt="Change your look and your attitude " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-6.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Build Your Personal Brand Online: Start Standing Out Today
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 300; --height: 360;">
+                  <img src="recommended-6.jpeg" width="300" height="360" loading="lazy"
+                    alt="The difference is quality " class="img-cover">
+
+                  <ul class="avatar-list absolute">
+
+                    <li class="avatar-item">
+                      <a href="#" class="avatar img-holder" style="--width: 100; --height: 100;">
+                        <img src="author-3.jpeg" width="100" height="100" loading="lazy" alt="Author"
+                          class="img-cover">
+                      </a>
+                    </li>
+
+                  </ul>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h5">
+                    <a href="#" class="card-title hover:underline">
+                      Creative Ways to Stay Motivated Every Single Day
+                    </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!--#NEWSLETTER-->
+
+      <section class="section newsletter">
+
+        <h2 class="h2 section-title">
+          Subscribe to <strong class="strong">new posts</strong>
+        </h2>
+
+        <form action="" class="newsletter-form">
+          <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+
+      </section>
+
+    </article>
+  </main>
+
+
+  <!--#FOOTER--> 
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo.png" width="129" height="40" alt="Blogy logo">
+          </a>
+
+          <p class="footer-text">
+            We don't just write stories — we spark conversations and inspire ideas.
+          </p>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Social</p>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-facebook"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Facebook</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-twitter"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Twitter</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-pinterest"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Pinterest</a>
+          </li>
+
+          <li class="footer-list-item">
+            <ion-icon name="logo-vimeo"></ion-icon>
+
+            <a href="#" class="footer-link hover:underline">Vimeo</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">About</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Style Guide</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Contact</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">404</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Privacy Policy</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Features</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Upcoming Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Blog & News</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Features</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">FAQ Question</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Testimonial</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="h5">Membership</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Account</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Membership</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Subscribe</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Tags</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link hover:underline">Authors</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="section footer-bottom">
+
+        <p class="copyright">
+          &copy; NovaScribe 2025
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
