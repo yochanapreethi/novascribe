@@ -1,11 +1,6 @@
 'use strict';
 
-
-
-/**
- * add event on element
- */
-
+/* add event on element*/
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
     for (let i = 0; i < elem.length; i++) {
@@ -16,12 +11,7 @@ const addEventOnElem = function (elem, type, callback) {
   }
 }
 
-
-
-/**
- * navbar toggle
- */
-
+/* navbar toggle*/
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const navToggler = document.querySelector("[data-nav-toggler]");
@@ -41,11 +31,7 @@ const closeNavbar = function () {
 addEventOnElem(navbarLinks, "click", closeNavbar);
 
 
-
-/**
- * search bar toggle
- */
-
+/*search bar toggle */
 const searchBar = document.querySelector("[data-search-bar]");
 const searchTogglers = document.querySelectorAll("[data-search-toggler]");
 const overlay = document.querySelector("[data-overlay]");
